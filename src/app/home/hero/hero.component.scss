@@ -1,0 +1,43 @@
+@import "../../theme";
+
+.container {
+  height: 75vh;
+  padding-left: 25vw;
+  display: flex;
+  align-items: center;
+
+  main {
+    width: 45vw;
+
+    p#name-head {
+      color: $primary;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+      font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: -1px;
+    }
+
+    h1#name {
+      font-size: 4.2rem;
+      color: $slate-3;
+    }
+
+    h1#teaser {
+      font-size: 3.5rem;
+      color: $slate-1;
+    }
+
+    p#description {
+      letter-spacing: unset;
+      margin-top: 1.2rem;
+    }
+
+    button {
+      margin-top: 3rem;
+    }
+  }
+}
