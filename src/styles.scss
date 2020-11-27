@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   background: $background;
+  color: $slate-2;
 }
 
 a {
@@ -25,7 +26,7 @@ button {
 }
 
 input {
-  border: 2px solid $secondary;
+  border: 2px solid $slate-3;
 
   &:focus,
   &:active {
