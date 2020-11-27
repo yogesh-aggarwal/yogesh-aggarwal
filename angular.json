@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ProgrammingWithYogesh"
+  "defaultProject": "ProgrammingWithYogesh",
+  "cli": {
+    "analytics": "c4d4260e-be46-49d1-82a5-ed57e59ae72d"
+  }
 }
