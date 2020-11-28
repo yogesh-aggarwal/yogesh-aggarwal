@@ -42,7 +42,7 @@ export class DataService {
     },
     {
       name: "Expenses Manager",
-      imageUrl: "https://bit.ly/3jdL6TA",
+      imageUrl: "https://bit.ly/2JmPdjM",
       description:
         "Simple to use android mobile application that helps you to manage your daily expenses & keep you on budget.",
       githubUrl: "https://github.com/yogesh-aggarwal/expenses-manager",
@@ -61,7 +61,7 @@ export class DataService {
     },
     {
       name: "Folder Prettifier",
-      imageUrl: "https://bit.ly/3jdL6TA",
+      imageUrl: "https://bit.ly/2HPhEqg",
       description:
         "Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully",
       githubUrl: "https://github.com/TheRaidBlueCompany/folder-prettifier",
