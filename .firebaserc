@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "programmingwithyogesh-dev": {
+      "hosting": {
+        "ProgrammingWithYogesh": [
+          "programmingwithyogesh-dev"
+        ]
+      }
+    }
+  }
+}
