@@ -37,7 +37,7 @@ export class DataService {
       description:
         "Messenger application that serves you best chatting experience.",
       githubUrl: "https://github.com/yogesh-aggarwal/memo-messenger",
-      projectUrl: "",
+      projectUrl: "https://github.com/yogesh-aggarwal/memo-messenger/releases",
       technologies: ["Flutter", "Firebase", "RxDart"],
     },
     {
@@ -116,7 +116,7 @@ export class DataService {
       description:
         "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
       githubUrl: "https://github.com/yogesh-aggarwal/rest-to-gql",
-      projectUrl: "",
+      projectUrl: "https://github.com/yogesh-aggarwal/rest-to-gql/releases",
       technologies: [
         "Rest API",
         "GraphQL API",
@@ -130,7 +130,7 @@ export class DataService {
       description:
         "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
       githubUrl: "https://github.com/yogesh-aggarwal/falcon-qna-backend",
-      projectUrl: "",
+      projectUrl: "https://github.com/yogesh-aggarwal/falcon-qna-backend/releases",
       technologies: [
         "GraphQL API",
         "Mongoose",
