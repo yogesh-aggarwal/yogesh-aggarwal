@@ -41,6 +41,16 @@ export class DataService {
       technologies: ["Flutter", "Firebase", "RxDart"],
     },
     {
+      name: "Expenses Manager",
+      imageUrl: "https://bit.ly/3jdL6TA",
+      description:
+        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      githubUrl: "https://github.com/yogesh-aggarwal/expenses-manager",
+      projectUrl:
+        "https://github.com/yogesh-aggarwal/expenses-manager/releases",
+      technologies: ["Ionic 5", "Angular", "Firebase", "RxJS"],
+    },
+    {
       name: "Flamingo",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
@@ -49,15 +59,117 @@ export class DataService {
       projectUrl: "",
       technologies: ["Flutter", "Firebase", "RxDart"],
     },
+    {
+      name: "Folder Prettifier",
+      imageUrl: "https://bit.ly/3jdL6TA",
+      description:
+        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      githubUrl: "https://github.com/TheRaidBlueCompany/folder-prettifier",
+      projectUrl:
+        "https://github.com/TheRaidBlueCompany/folder-prettifier/releases/tag/v2.0.0",
+      technologies: ["WinForms", "C#", "Visual Studio 2019"],
+    },
+    {
+      name: "Folder Prettifier Website",
+      imageUrl: "https://bit.ly/3jdL6TA",
+      description:
+        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      githubUrl:
+        "https://github.com/TheRaidBlueCompany/folder-prettifier-website",
+      projectUrl: "https://folder-prettifier.web.app/",
+      technologies: ["Angular", "Firebase"],
+    },
+    {
+      name: "NewsIfy",
+      imageUrl: "https://bit.ly/3jdL6TA",
+      description:
+        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      githubUrl: "https://github.com/yogesh-aggarwal/newsify",
+      projectUrl: "https://github.com/yogesh-aggarwal/newsify/releases",
+      technologies: ["ElectronJS", "Angular", "News Rest API"],
+    },
   ];
   otherProjects: ProjectInterface[] = [
     {
-      name: "Fanatic",
+      name: "Jycore Assistant",
       description:
         "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
+      githubUrl: "https://github.com/yogesh-aggarwal/assistant",
+      projectUrl: "https://github.com/yogesh-aggarwal/assistant/releases",
+      technologies: ["Python", "ML & AI", "MongoDB", "PyMongo", "Automation"],
+    },
+    {
+      name: "SQL Tools",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/sql-tools-lib",
+      projectUrl: "https://pypi.org/project/sql-tools/",
+      technologies: [
+        "Python",
+        "SQLite",
+        "MySQL",
+        "Flask",
+        "Front-End (interface)",
+      ],
+    },
+    {
+      name: "Rest To GraphQL",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/rest-to-gql",
+      projectUrl: "",
+      technologies: [
+        "Rest API",
+        "GraphQL API",
+        "Mongoose",
+        "MongoDB",
+        "Python",
+      ],
+    },
+    {
+      name: "Falcon QnA Backend",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/falcon-qna-backend",
+      projectUrl: "",
+      technologies: [
+        "GraphQL API",
+        "Mongoose",
+        "MongoDB",
+        "NodeJS",
+        "TypeScript",
+        "Apollo Server",
+      ],
+    },
+    {
+      name: "Falcon QnA Backend",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/almater",
+      projectUrl: "https://github.com/yogesh-aggarwal/almater/releases",
+      technologies: [
+        "Angular",
+        "Firebase",
+        "Electron",
+        "Management",
+        "TypeScript",
+      ],
+    },
+    {
+      name: "Medium Cart",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/medium-cart-django",
+      projectUrl:
+        "https://github.com/yogesh-aggarwal/medium-cart-django/releases",
+      technologies: [
+        "Django",
+        "Payment Gateway",
+        "PayTM",
+        "SQLite",
+        "ORM",
+        "Python",
+      ],
     },
   ];
   technologies: string[] = [
