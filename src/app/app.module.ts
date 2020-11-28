@@ -6,6 +6,7 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { SidebarsComponent } from "./components/sidebars/sidebars.component";
 import { HeroComponent } from "./routes/home/hero/hero.component";
 import { HomeComponent } from "./routes/home/home.component";
+import { AboutMeComponent } from './routes/home/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HomeComponent } from "./routes/home/home.component";
     HomeComponent,
     NavbarComponent,
     SidebarsComponent,
+    AboutMeComponent,
   ],
   imports: [BrowserModule],
   providers: [],
