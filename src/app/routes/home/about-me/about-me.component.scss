@@ -9,10 +9,10 @@
       grid-column-gap: 5rem;
 
       .about {
-        line-height: 1.4em;
-
-        p {
+        * {
           font-size: 1.1rem;
+          font-family: $font-sans;
+          line-height: 1.5rem;
         }
 
         .technologies {
@@ -29,9 +29,7 @@
               margin-right: 0.3rem;
               font-size: 1.5rem;
               color: $primary;
-            }
-
-            .name {
+              user-select: none;
             }
           }
         }

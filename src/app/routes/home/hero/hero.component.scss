@@ -9,13 +9,14 @@
   section {
     p#name-head {
       color: $primary;
+      font-size: 1.1rem;
     }
 
     h1,
     h2,
     p#description {
       margin: 0;
-      font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+      font-family: $font-sans;
       letter-spacing: -1px;
     }
 
