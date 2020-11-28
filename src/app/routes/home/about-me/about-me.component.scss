@@ -5,7 +5,7 @@
   section {
     .content {
       display: grid;
-      grid-template-columns: auto 3in;
+      grid-template-columns: minmax(22rem, 1fr) minmax(3in, 1fr);
       grid-column-gap: 5rem;
 
       .about {
