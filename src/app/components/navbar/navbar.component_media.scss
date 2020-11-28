@@ -1,5 +1,9 @@
 @media (max-width: 530px) {
   .container {
-    // display: none;
+    .actions {
+      .routes {
+        display: none;
+      }
+    }
   }
 }
