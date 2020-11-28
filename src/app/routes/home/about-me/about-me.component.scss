@@ -5,25 +5,24 @@
   section {
     .heading {
       @include center();
+      justify-content: flex-start;
+
+      .count {
+        margin-right: 5px;
+        color: $primary;
+      }
 
       .name {
-        @include center();
-
-        .count {
-          margin-right: 5px;
-          color: $primary;
-        }
-
-        .name {
-          white-space: nowrap;
-          margin-right: 1.5rem;
-        }
-      }
-      .line {
-        width: 100%;
-        height: 2px;
-        background: $primary;
+        white-space: nowrap;
+        margin-right: 1.5rem;
+        font-size: 1.8rem;
       }
     }
+  }
+  .line {
+    width: 100%;
+    height: 2px;
+    background: rgba($color: $slate-1, $alpha: 0.25);
+    margin: 1rem 0;
   }
 }
