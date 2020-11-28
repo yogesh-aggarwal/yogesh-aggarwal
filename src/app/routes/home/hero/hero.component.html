@@ -1,9 +1,9 @@
 <div class="container section">
   <section>
-    <p id="name-head">Hi, my name is</p>
+    <p id="name-head" #nameHead>Hi, my name is</p>
     <h1 id="name" #name>Yogesh Aggarwal.</h1>
     <h1 id="teaser" #teaser>I build softwares for the users.</h1>
-    <p id="description"  #description>
+    <p id="description" #description>
       I'm a software engineer based in New Delhi, India specializing in building
       exceptional websites, applications, and make people (users) smile. I love
       to develop softwares that're challenging & fruitful to the users.
@@ -41,7 +41,7 @@
         </a>
       </div>
     </div>
-    <a [href]="['mailto:', dataService.email]">
+    <a [href]="['mailto:', dataService.email]" #cta>
       <button>Get In Touch</button>
     </a>
   </section>
