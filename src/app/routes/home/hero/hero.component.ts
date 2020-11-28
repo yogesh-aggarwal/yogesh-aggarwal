@@ -10,8 +10,16 @@ import { TweenLite } from "gsap";
 export class HeroComponent implements OnInit {
   @ViewChild("name")
   name: ElementRef;
+  @ViewChild("teaser")
+  teaser: ElementRef;
+  @ViewChild("description")
+  description: ElementRef;
+  @ViewChild("socials")
+  socials: ElementRef;
 
   constructor(public dataService: DataService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
 }
