@@ -52,7 +52,7 @@ export class DataService {
     },
     {
       name: "Ravel",
-      imageUrl: "https://bit.ly/3jdL6TA",
+      imageUrl: "https://bit.ly/3o8l3A3",
       description:
         "Blogging website where people can write their blog & other people will be able to read them & gather any sort of nowledge from it.",
       githubUrl: "https://github.com/yogesh-aggarwal/ravel",
@@ -71,7 +71,7 @@ export class DataService {
     },
     {
       name: "Folder Prettifier Website",
-      imageUrl: "https://bit.ly/3jdL6TA",
+      imageUrl: "https://bit.ly/3q6UwVr",
       description: "Website create to promote the Folder Prettifier",
       githubUrl:
         "https://github.com/TheRaidBlueCompany/folder-prettifier-website",
@@ -80,7 +80,7 @@ export class DataService {
     },
     {
       name: "NewsIfy",
-      imageUrl: "https://bit.ly/3jdL6TA",
+      imageUrl: "https://bit.ly/3fKmAZR",
       description:
         "One-stop solution for all the news readers. It provides latest news from various sources including BBC, TOI, HT etc.",
       githubUrl: "https://github.com/yogesh-aggarwal/newsify",
