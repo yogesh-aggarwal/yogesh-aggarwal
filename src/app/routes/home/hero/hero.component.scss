@@ -18,12 +18,12 @@
     }
 
     h1#name {
-      font-size: 4.2rem;
+      font-size: clamp(3.5rem, 5vw, 4.2rem);
       color: $slate-3;
     }
 
     h1#teaser {
-      font-size: 3.5rem;
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
       color: $slate-1;
     }
 
