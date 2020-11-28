@@ -11,6 +11,11 @@
 
             &.reverse {
               flex-direction: column;
+
+              .about {
+                margin-left: 0;
+                margin-right: 0;
+              }
             }
 
             .image {
