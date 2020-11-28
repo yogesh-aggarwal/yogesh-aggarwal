@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DataService } from "src/app/services/data.service";
 
 @Component({
   selector: "get-in-touch",
@@ -9,7 +10,7 @@ import { Component, OnInit } from "@angular/core";
   ],
 })
 export class GetInTouchComponent implements OnInit {
-  constructor() {}
+  constructor(public dataService: DataService) {}
 
   ngOnInit(): void {}
 }
