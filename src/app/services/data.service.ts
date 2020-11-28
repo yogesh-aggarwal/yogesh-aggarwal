@@ -76,7 +76,7 @@ export class DataService {
       githubUrl:
         "https://github.com/TheRaidBlueCompany/folder-prettifier-website",
       projectUrl: "https://folder-prettifier.web.app/",
-      technologies: ["Angular"],
+      technologies: ["Angular", "Firebase"],
     },
     {
       name: "NewsIfy",
