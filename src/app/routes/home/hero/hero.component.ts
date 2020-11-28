@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { DataService } from "src/app/services/data.service";
+import { TweenLite } from "gsap";
 
 @Component({
   selector: "hero",
@@ -7,6 +8,9 @@ import { DataService } from "src/app/services/data.service";
   styleUrls: ["./hero.component.scss", "./hero.component_media.scss"],
 })
 export class HeroComponent implements OnInit {
+  @ViewChild("name")
+  name: ElementRef;
+
   constructor(public dataService: DataService) {}
 
   ngOnInit(): void {}
