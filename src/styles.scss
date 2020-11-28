@@ -8,7 +8,7 @@
   font-family: $font-mono;
   outline: none;
   color: $slate-2;
-  transition: 0.1s all ease-in;
+
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -31,6 +31,7 @@ button {
   border-radius: 0.3rem;
   font-size: 1.2rem;
   color: $primary;
+  transition: background 0.1s ease-in;
   cursor: pointer;
 
   &:hover {

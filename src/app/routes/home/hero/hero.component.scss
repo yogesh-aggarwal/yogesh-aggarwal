@@ -4,10 +4,6 @@
 .container {
   min-height: 80vh;
 
-  * {
-    transition: unset;
-  }
-
   section {
     p#name-head {
       color: $primary;
