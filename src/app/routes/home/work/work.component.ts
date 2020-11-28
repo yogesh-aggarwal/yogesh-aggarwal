@@ -4,7 +4,7 @@ import { DataService } from "src/app/services/data.service";
 @Component({
   selector: "work",
   templateUrl: "./work.component.html",
-  styleUrls: ["./work.component.scss"],
+  styleUrls: ["./work.component.scss", "./work.component_media.scss"],
 })
 export class WorkComponent implements OnInit {
   constructor(public dataService: DataService) {}
