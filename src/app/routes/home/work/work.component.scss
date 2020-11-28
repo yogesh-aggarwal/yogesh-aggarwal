@@ -13,6 +13,7 @@ i {
 
         .project {
           @include center();
+          justify-content: space-between;
           margin-bottom: 8rem;
           margin-top: 2.5rem;
 
@@ -42,6 +43,7 @@ i {
 
           .image {
             width: 35vw;
+            min-width: 35vw;
             position: relative;
             border-radius: 0.5rem;
 

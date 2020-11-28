@@ -44,7 +44,7 @@ export class DataService {
       name: "Expenses Manager",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+        "Simple to use android mobile application that helps you to manage your daily expenses & keep you on budget.",
       githubUrl: "https://github.com/yogesh-aggarwal/expenses-manager",
       projectUrl:
         "https://github.com/yogesh-aggarwal/expenses-manager/releases",
@@ -54,7 +54,7 @@ export class DataService {
       name: "Flamingo",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+        "Android application containing e-books & specially tailored for all those readers who love to read books & try out different topics.",
       githubUrl: "",
       projectUrl: "",
       technologies: ["Flutter", "Firebase", "RxDart"],
@@ -63,7 +63,7 @@ export class DataService {
       name: "Folder Prettifier",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+        "Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully",
       githubUrl: "https://github.com/TheRaidBlueCompany/folder-prettifier",
       projectUrl:
         "https://github.com/TheRaidBlueCompany/folder-prettifier/releases/tag/v2.0.0",
@@ -72,18 +72,17 @@ export class DataService {
     {
       name: "Folder Prettifier Website",
       imageUrl: "https://bit.ly/3jdL6TA",
-      description:
-        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      description: "Website create to promote the Folder Prettifier",
       githubUrl:
         "https://github.com/TheRaidBlueCompany/folder-prettifier-website",
       projectUrl: "https://folder-prettifier.web.app/",
-      technologies: ["Angular", "Firebase"],
+      technologies: ["Angular"],
     },
     {
       name: "NewsIfy",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+        "One-stop solution for all the news readers. It provides latest news from various sources including BBC, TOI, HT etc.",
       githubUrl: "https://github.com/yogesh-aggarwal/newsify",
       projectUrl: "https://github.com/yogesh-aggarwal/newsify/releases",
       technologies: ["ElectronJS", "Angular", "News Rest API"],
@@ -142,7 +141,7 @@ export class DataService {
       ],
     },
     {
-      name: "Falcon QnA Backend",
+      name: "Almater",
       description:
         "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
       githubUrl: "https://github.com/yogesh-aggarwal/almater",
