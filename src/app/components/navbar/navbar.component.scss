@@ -1,4 +1,5 @@
 @import "../../theme";
+@import "../../tools";
 
 .container {
   position: absolute;
@@ -9,6 +10,39 @@
   height: $navbar-height;
   backdrop-filter: blur(10px);
 
-  display: flex;
-  align-items: center;
+  @include center();
+  justify-content: space-between;
+
+  .logo {
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .actions {
+    @include center();
+
+    .routes {
+      @include center();
+
+      .route {
+        @include center();
+        margin-right: 2rem;
+        cursor: pointer;
+
+        * {
+          font-size: 1.2rem;
+        }
+
+        .count {
+          color: $primary;
+        }
+
+        .name {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
 }
