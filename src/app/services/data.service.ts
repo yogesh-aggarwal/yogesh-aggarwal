@@ -92,7 +92,7 @@ export class DataService {
     {
       name: "Jycore Assistant",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Machine Learning & Artificial intelligence powered virtual assistant that help you automate your daily tasks.",
       githubUrl: "https://github.com/yogesh-aggarwal/assistant",
       projectUrl: "https://github.com/yogesh-aggarwal/assistant/releases",
       technologies: ["Python", "ML & AI", "MongoDB", "PyMongo", "Automation"],
@@ -100,7 +100,7 @@ export class DataService {
     {
       name: "SQL Tools",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Python Package to help you out in operating with SQLite databases easily & efficiently.",
       githubUrl: "https://github.com/yogesh-aggarwal/sql-tools-lib",
       projectUrl: "https://pypi.org/project/sql-tools/",
       technologies: [
@@ -114,7 +114,7 @@ export class DataService {
     {
       name: "Rest To GraphQL",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Python script that transforms your REST API to a MongoDB, Apollo Server (GraphQL) based API",
       githubUrl: "https://github.com/yogesh-aggarwal/rest-to-gql",
       projectUrl: "https://github.com/yogesh-aggarwal/rest-to-gql/releases",
       technologies: [
@@ -128,9 +128,10 @@ export class DataService {
     {
       name: "Falcon QnA Backend",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Backend for a QnA website on my GitHub (repository: falcon-qna)",
       githubUrl: "https://github.com/yogesh-aggarwal/falcon-qna-backend",
-      projectUrl: "https://github.com/yogesh-aggarwal/falcon-qna-backend/releases",
+      projectUrl:
+        "https://github.com/yogesh-aggarwal/falcon-qna-backend/releases",
       technologies: [
         "GraphQL API",
         "Mongoose",
@@ -143,7 +144,7 @@ export class DataService {
     {
       name: "Almater",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Web Application tailored for management in educational institutes.",
       githubUrl: "https://github.com/yogesh-aggarwal/almater",
       projectUrl: "https://github.com/yogesh-aggarwal/almater/releases",
       technologies: [
@@ -157,7 +158,7 @@ export class DataService {
     {
       name: "Medium Cart",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "E-Commerce website based on Django which integrates PayTM payment gateway. (Note: Just a prototype of an e-commerce website)",
       githubUrl: "https://github.com/yogesh-aggarwal/medium-cart-django",
       projectUrl:
         "https://github.com/yogesh-aggarwal/medium-cart-django/releases",
