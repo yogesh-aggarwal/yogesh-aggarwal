@@ -9,8 +9,9 @@
   padding: 1rem;
   height: $navbar-height;
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px #0000008a;
+  box-shadow: $box-shadow;
   background: rgba($color: $background, $alpha: 0.6);
+  z-index: 1e3;
 
   @include center();
   justify-content: space-between;
