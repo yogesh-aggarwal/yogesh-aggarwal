@@ -3,6 +3,54 @@
 
 .container {
   section {
-    
+    .content {
+      display: grid;
+      grid-template-columns: auto 3in;
+      grid-column-gap: 5rem;
+
+      .about {
+        line-height: 1.4em;
+
+        p {
+          font-size: 1.1rem;
+        }
+
+        .technologies {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(5rem, 1fr));
+          grid-row-gap: 0.3rem;
+
+          .technology {
+            @include center();
+            justify-content: flex-start;
+            margin-right: 1rem;
+
+            .bullet {
+              margin-right: 0.3rem;
+              font-size: 1.5rem;
+              color: $primary;
+            }
+
+            .name {
+            }
+          }
+        }
+      }
+
+      .profile {
+        border: 2px solid $primary;
+        border-radius: 1rem;
+        background: rgba($color: $primary, $alpha: 0.1);
+        margin-top: 2.5rem;
+        height: 3in;
+        width: 3in;
+
+        img {
+          border-radius: inherit;
+          margin-top: -1.5rem;
+          margin-left: -1.5rem;
+        }
+      }
+    }
   }
 }

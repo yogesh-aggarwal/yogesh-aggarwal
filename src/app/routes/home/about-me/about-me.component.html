@@ -8,6 +8,32 @@
       <div class="line"></div>
     </div>
 
-    <div class="content">fdjif</div>
+    <div class="content">
+      <div class="about">
+        <p>
+          Hello! I'm Yogesh Aggarwal, a Software Engineer based in New Delhi,
+          India.
+        </p>
+        <p>
+          I enjoy creating things that users need & love to use. I love people's
+          smiles when they become happy while using my software. My
+          specialization is to create websites & apps with breathtaking
+          performance & provide the best value out of it.
+        </p>
+        <p>Here are a few technologies I've been working with recently:</p>
+        <div class="technologies">
+          <div
+            class="technology"
+            *ngFor="let technology of dataService.technologies"
+          >
+            <div class="bullet">▹</div>
+            <div class="name">{{ technology }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <img src="../../../../assets/profile.jpg" alt="" />
+      </div>
+    </div>
   </section>
 </div>

@@ -54,6 +54,13 @@ input {
   }
 }
 
+img {
+  width: 100%;
+  image-rendering: pixelated;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 .container {
   padding-left: 1rem;
   padding-right: 1rem;

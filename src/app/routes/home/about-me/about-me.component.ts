@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DataService } from "src/app/services/data.service";
 
 @Component({
   selector: "about-me",
@@ -6,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./about-me.component.scss"],
 })
 export class AboutMeComponent implements OnInit {
-  constructor() {}
+  constructor(public dataService: DataService) {}
 
   ngOnInit(): void {}
 }
