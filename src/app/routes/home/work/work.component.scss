@@ -16,6 +16,20 @@
               margin-left: 0;
               margin-right: -6rem;
               align-items: flex-start;
+
+              .technologies {
+                .technology {
+                  margin-left: 0;
+                  margin-right: 1rem;
+                }
+              }
+
+              .urls {
+                .icon {
+                  margin-left: 0;
+                  margin-right: 0.7rem;
+                }
+              }
             }
           }
 
@@ -84,6 +98,17 @@
 
               .technology {
                 margin-left: 1rem;
+              }
+            }
+
+            .urls {
+              @include center();
+              margin-top: 1.3rem;
+              pointer-events: all;
+
+              .icon {
+                margin-left: 0.7rem;
+                cursor: pointer;
               }
             }
           }

@@ -10,47 +10,40 @@
 
     <div class="content">
       <div class="projects">
-        <div class="project">
+        <div
+          class="project"
+          *ngFor="let project of dataService.featuredProjects; let i = index"
+          [ngClass]="{ reverse: i % 2 != 0 }"
+        >
           <div class="image">
             <div class="overlay"></div>
-            <img src="https://bit.ly/37tmGmR" alt="" />
+            <img [src]="project.imageUrl" alt="" />
           </div>
           <div class="about">
             <div class="featured">Featured Project</div>
-            <div class="name">Fanatic</div>
+            <div class="name">{{ project.name }}</div>
             <div class="description">
-              A nicer look at your GitHub profile and repository stats with data
-              visualizations of your top languages and stars. Sort through your
-              top repos by number of stars, forks, and size.
+              {{ project.description }}
             </div>
             <div class="technologies">
-              <div class="technology">Angular</div>
+              <div
+                class="technology"
+                *ngFor="let technology of project.technologies"
+              >
+                {{ technology }}
+              </div>
             </div>
             <div class="urls">
-              <div class="github"></div>
-              <div class="external"></div>
-            </div>
-          </div>
-        </div>
-        <div class="project reverse">
-          <div class="image">
-            <div class="overlay"></div>
-            <img src="https://bit.ly/37tmGmR" alt="" />
-          </div>
-          <div class="about">
-            <div class="featured">Featured Project</div>
-            <div class="name">Fanatic</div>
-            <div class="description">
-              A nicer look at your GitHub profile and repository stats with data
-              visualizations of your top languages and stars. Sort through your
-              top repos by number of stars, forks, and size.
-            </div>
-            <div class="technologies">
-              <div class="technology">Angular</div>
-            </div>
-            <div class="urls">
-              <div class="github"></div>
-              <div class="external"></div>
+              <div class="icon">
+                <a [href]="project.githubUrl" target="_blank">
+                  <github></github>
+                </a>
+              </div>
+              <div class="icon">
+                <a [href]="project.projectUrl" target="_blank">
+                  <link-icon></link-icon>
+                </a>
+              </div>
             </div>
           </div>
         </div>

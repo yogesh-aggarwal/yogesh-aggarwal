@@ -24,6 +24,15 @@ export class DataService {
       projectUrl: "https://anime-fanatic.web.app/",
       technologies: ["Angular", "Firebase", "Firestore"],
     },
+    {
+      name: "Fanatic",
+      imageUrl: "https://bit.ly/37tmGmR",
+      description:
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
+      projectUrl: "https://anime-fanatic.web.app/",
+      technologies: ["Angular", "Firebase", "Firestore"],
+    },
   ];
   otherProjects: ProjectInterface[] = [];
   technologies: string[] = [

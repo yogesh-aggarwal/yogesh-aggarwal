@@ -8,6 +8,8 @@ import { HeroComponent } from "./routes/home/hero/hero.component";
 import { HomeComponent } from "./routes/home/home.component";
 import { AboutMeComponent } from './routes/home/about-me/about-me.component';
 import { WorkComponent } from './routes/home/work/work.component';
+import { GithubComponent } from './components/github/github.component';
+import { LinkComponent } from './components/link/link.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { WorkComponent } from './routes/home/work/work.component';
     SidebarsComponent,
     AboutMeComponent,
     WorkComponent,
+    GithubComponent,
+    LinkComponent,
   ],
   imports: [BrowserModule],
   providers: [],
