@@ -42,12 +42,14 @@
         background: rgba($color: $primary, $alpha: 0.1);
         height: 3in;
         width: 3in;
-        padding-bottom: 1.5rem;
-        margin-left: -1.5rem;
 
         .image {
           border-radius: inherit;
           position: relative;
+          width: 100%;
+          height: 100%;
+          margin-top: -1rem;
+          margin-left: -1rem;
 
           .overlay {
             border-radius: inherit;
