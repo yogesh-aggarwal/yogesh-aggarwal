@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DataService } from "src/app/services/data.service";
 
 @Component({
   selector: "hero",
@@ -6,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./hero.component.scss", "./hero.component_media.scss"],
 })
 export class HeroComponent implements OnInit {
-  constructor() {}
+  constructor(public dataService: DataService) {}
 
   ngOnInit(): void {}
 }

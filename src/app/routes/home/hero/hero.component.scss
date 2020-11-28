@@ -1,4 +1,5 @@
 @import "../../../theme";
+@import "../../../tools";
 
 .container {
   min-height: 80vh;
@@ -32,8 +33,20 @@
       margin-top: 1.2rem;
     }
 
+    .socials {
+      @include center();
+      display: none;
+      justify-content: flex-start;
+      margin-top: 2rem;
+
+      i {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+      }
+    }
+
     button {
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   }
 }
