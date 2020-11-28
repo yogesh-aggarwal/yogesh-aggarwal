@@ -28,6 +28,7 @@ export class HeroComponent implements OnInit {
       opacity: 0,
       y: 30,
       transform: "rotateX(30deg)",
+      duration: 0.8,
     };
     TweenLite.from(this.nameHead.nativeElement, 1, transitions);
     TweenLite.from(this.name.nativeElement, 1, {
