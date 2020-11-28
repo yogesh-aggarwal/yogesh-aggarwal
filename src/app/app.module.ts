@@ -7,6 +7,7 @@ import { SidebarsComponent } from "./components/sidebars/sidebars.component";
 import { HeroComponent } from "./routes/home/hero/hero.component";
 import { HomeComponent } from "./routes/home/home.component";
 import { AboutMeComponent } from './routes/home/about-me/about-me.component';
+import { WorkComponent } from './routes/home/work/work.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AboutMeComponent } from './routes/home/about-me/about-me.component';
     NavbarComponent,
     SidebarsComponent,
     AboutMeComponent,
+    WorkComponent,
   ],
   imports: [BrowserModule],
   providers: [],
