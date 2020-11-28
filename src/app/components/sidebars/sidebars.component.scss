@@ -2,10 +2,10 @@
 @import "../../tools";
 
 .container {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  width: 100vw;
+  width: 99vw;
   pointer-events: none;
 
   display: flex;

@@ -2,13 +2,14 @@
 @import "../../tools";
 
 .container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 1rem;
   height: $navbar-height;
   backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px #0000008a;
 
   @include center();
   justify-content: space-between;
