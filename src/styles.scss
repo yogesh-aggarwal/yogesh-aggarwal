@@ -65,10 +65,42 @@ input {
   &.section {
     @extend .centered;
     height: 80vh;
-    // margin-bottom: 35vh;
   }
 }
 
 section {
   width: 50vw;
+
+  .heading {
+    @include center();
+    justify-content: flex-start;
+
+    .name {
+      @include center();
+      align-items: flex-end;
+
+      .count {
+        margin-right: 8px;
+        color: $primary;
+        font-size: 1.3rem;
+      }
+
+      .name {
+        white-space: nowrap;
+        margin-right: 1.5rem;
+        font-size: 1.8rem;
+      }
+    }
+
+    .line {
+      width: 100%;
+      height: 2px;
+      background: rgba($color: $slate-1, $alpha: 0.25);
+      margin: 1rem 0;
+    }
+  }
+
+  .content {
+    margin-top: 2rem;
+  }
 }
