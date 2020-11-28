@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { DataService } from "src/app/services/data.service";
-import { TweenLite } from "gsap";
+import { DataService } from "../../../services/data.service";
+import { gsap, TweenLite } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 @Component({
   selector: "about-me",
@@ -12,25 +13,27 @@ export class AboutMeComponent implements OnInit {
   section: ElementRef;
   @ViewChild("heading")
   heading: ElementRef;
+  @ViewChild("content")
+  content: ElementRef;
 
   constructor(public dataService: DataService) {}
 
   animate() {
-    const transitions = {
+    const transitions: gsap.TweenVars = {
       opacity: 0,
       y: 40,
-      transform: "rotateX(30deg)",
       duration: 0.1,
       scrollTrigger: this.section.nativeElement,
     };
     TweenLite.from(this.heading.nativeElement, 1, transitions);
-    // TweenLite.from(this.name.nativeElement, 1, {
-    //   ...transitions,
-    //   delay: 0.1,
-    // });
+    TweenLite.from(this.content.nativeElement, 1, {
+      ...transitions,
+      delay: 0.1,
+    });
   }
 
   ngOnInit(): void {
+    gsap.registerPlugin(ScrollTrigger);
     setTimeout(() => {
       this.animate();
     });
