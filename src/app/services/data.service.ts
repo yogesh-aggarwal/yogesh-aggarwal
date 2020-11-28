@@ -13,8 +13,14 @@ interface ProjectInterface {
   providedIn: "root",
 })
 export class DataService {
+  social: any = {
+    github: "https://github.com/yogesh-aggarwal",
+    twitter: "https://twitter.com/YogeshDev215",
+    facebook: "https://www.facebook.com/yogesh.aggarwal.50702769",
+    instagram: "https://www.instagram.com/developer.exe",
+    linkedin: "https://www.linkedin.com/in/yogesh-aggarwal-90a7ab1b2",
+  };
   email: string = "yogeshdevaggarwal@gmail.com";
-  githubProfileUrl: string = "https://github.com/yogesh-aggarwal";
   featuredProjects: ProjectInterface[] = [
     {
       name: "Fanatic",
