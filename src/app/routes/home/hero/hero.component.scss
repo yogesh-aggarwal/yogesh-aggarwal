@@ -1,11 +1,7 @@
 @import "../../../theme";
 
 .container {
-  padding-left: 22vw;
-  display: flex;
-  justify-content: unset;
-  align-items: center;
-  min-height: unset;
+  min-height: 80vh;
 
   section {
     p#name-head {

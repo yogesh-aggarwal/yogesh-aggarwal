@@ -70,13 +70,12 @@ img {
 
   &.section {
     @extend .centered;
-    height: 80vh;
     min-height: 100vh;
   }
 }
 
 section {
-  width: 50vw;
+  width: 60vw;
 
   .heading {
     @include center();
@@ -110,6 +109,6 @@ section {
   }
 
   .content {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }

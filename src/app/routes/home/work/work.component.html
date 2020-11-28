@@ -16,7 +16,7 @@
           [ngClass]="{ reverse: i % 2 != 0 }"
         >
           <div class="image">
-            <div class="overlay"></div>
+            <!-- <div class="overlay"></div> -->
             <img [src]="project.imageUrl" alt="" />
           </div>
           <div class="about">
@@ -36,15 +36,51 @@
             <div class="urls">
               <div class="icon">
                 <a [href]="project.githubUrl" target="_blank">
-                  <github></github>
+                  <i class="lab la-github"></i>
                 </a>
               </div>
               <div class="icon">
                 <a [href]="project.projectUrl" target="_blank">
-                  <link-icon></link-icon>
+                  <i class="las la-external-link-alt"></i>
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="heading">Other Noteworthy Projects</div>
+      <div class="archive">
+        <a [href]="dataService.githubProfileUrl" target="_blank">
+          View the Archive
+        </a>
+      </div>
+      <div class="other-projects">
+        <div class="project" *ngFor="let project of dataService.otherProjects">
+          <div class="actions">
+            <div class="repo-icon">
+              <i class="las la-folder-open"></i>
+            </div>
+            <div class="urls">
+              <div class="icon">
+                <a [href]="project.githubUrl" target="_blank">
+                  <i class="lab la-github"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a [href]="project.projectUrl" target="_blank">
+                  <i class="las la-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="information">
+            <div class="name">{{ project.name }}</div>
+            <div class="description">{{ project.description }}</div>
+          </div>
+
+          <div class="technologies">
+            <div class="technology"></div>
           </div>
         </div>
       </div>
