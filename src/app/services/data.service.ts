@@ -6,7 +6,7 @@ interface ProjectInterface {
   technologies: string[];
   githubUrl: string;
   projectUrl: string;
-  imageUrl: string;
+  imageUrl?: string;
 }
 
 @Injectable({
@@ -26,61 +26,33 @@ export class DataService {
       name: "Fanatic",
       imageUrl: "https://bit.ly/37tmGmR",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
+        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application.",
       githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
       projectUrl: "https://anime-fanatic.web.app/",
       technologies: ["Angular", "Firebase", "Firestore"],
     },
     {
-      name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
+      name: "Memo Messenger",
+      imageUrl: "https://bit.ly/2HostPC",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
+        "Messenger application that serves you best chatting experience.",
+      githubUrl: "https://github.com/yogesh-aggarwal/memo-messenger",
+      projectUrl: "",
+      technologies: ["Flutter", "Firebase", "RxDart"],
     },
     {
-      name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
+      name: "Flamingo",
+      imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
+        "If you're a studious person then you will like this project. This has a large collection of books that you can read & enjoy!",
+      githubUrl: "",
+      projectUrl: "",
+      technologies: ["Flutter", "Firebase", "RxDart"],
     },
   ];
   otherProjects: ProjectInterface[] = [
     {
       name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
-      description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
-    },
-    {
-      name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
-      description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
-    },
-    {
-      name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
-      description:
-        "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
-      githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
-      projectUrl: "https://anime-fanatic.web.app/",
-      technologies: ["Angular", "Firebase", "Firestore"],
-    },
-    {
-      name: "Fanatic",
-      imageUrl: "https://bit.ly/37tmGmR",
       description:
         "Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application",
       githubUrl: "https://github.com/yogesh-aggarwal/fanatic",
