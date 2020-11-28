@@ -9,6 +9,7 @@ import { HomeComponent } from "./routes/home/home.component";
 import { AboutMeComponent } from "./routes/home/about-me/about-me.component";
 import { WorkComponent } from "./routes/home/work/work.component";
 import { GetInTouchComponent } from './routes/home/get-in-touch/get-in-touch.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { GetInTouchComponent } from './routes/home/get-in-touch/get-in-touch.com
     AboutMeComponent,
     WorkComponent,
     GetInTouchComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule],
   providers: [],
