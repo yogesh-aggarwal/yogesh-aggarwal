@@ -1,0 +1,29 @@
+@import "../../../theme";
+@import "../../../tools";
+
+.container {
+  section {
+    .heading {
+      @include center();
+
+      .name {
+        @include center();
+
+        .count {
+          margin-right: 5px;
+          color: $primary;
+        }
+
+        .name {
+          white-space: nowrap;
+          margin-right: 1.5rem;
+        }
+      }
+      .line {
+        width: 100%;
+        height: 2px;
+        background: $primary;
+      }
+    }
+  }
+}
