@@ -8,6 +8,8 @@ import { TweenLite } from "gsap";
   styleUrls: ["./hero.component.scss", "./hero.component_media.scss"],
 })
 export class HeroComponent implements OnInit {
+  @ViewChild("section")
+  section: ElementRef;
   @ViewChild("nameHead")
   nameHead: ElementRef;
   @ViewChild("name")
@@ -26,9 +28,10 @@ export class HeroComponent implements OnInit {
   animate() {
     const transitions = {
       opacity: 0,
-      y: 30,
+      y: 40,
       transform: "rotateX(30deg)",
-      duration: 0.8,
+      duration: 0.1,
+      scrollTrigger: this.section.nativeElement,
     };
     TweenLite.from(this.nameHead.nativeElement, 1, transitions);
     TweenLite.from(this.name.nativeElement, 1, {
