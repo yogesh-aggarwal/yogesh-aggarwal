@@ -61,6 +61,12 @@ input {
   &.centered {
     @include center();
   }
+
+  &.section {
+    @extend .centered;
+    height: 80vh;
+    // margin-bottom: 35vh;
+  }
 }
 
 section {
