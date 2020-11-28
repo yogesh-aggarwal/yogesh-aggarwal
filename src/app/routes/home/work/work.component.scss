@@ -7,7 +7,7 @@
       .projects {
         .project {
           @include center();
-          margin-bottom: 3rem;
+          margin-bottom: 3.5rem;
 
           &.reverse {
             flex-direction: row-reverse;
@@ -31,8 +31,8 @@
               width: 100%;
               height: 100%;
               border-radius: inherit;
-              background: rgba($color: $primary, $alpha: 0.4);
-              backdrop-filter: brightness(70%) saturate(0.5)
+              background: rgba($color: $primary, $alpha: 0.3);
+              backdrop-filter: brightness(90%) saturate(0.5)
                 drop-shadow(2px 4px 6px black);
 
               &:hover {
@@ -50,6 +50,7 @@
           .about {
             margin-left: -6rem;
             z-index: 1;
+            pointer-events: none;
 
             display: flex;
             flex-direction: column;

@@ -71,6 +71,7 @@ img {
   &.section {
     @extend .centered;
     height: 80vh;
+    min-height: 100vh;
   }
 }
 
