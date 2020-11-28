@@ -51,13 +51,13 @@ export class DataService {
       technologies: ["Ionic 5", "Angular", "Firebase", "RxJS"],
     },
     {
-      name: "Flamingo",
+      name: "Ravel",
       imageUrl: "https://bit.ly/3jdL6TA",
       description:
-        "Android application containing e-books & specially tailored for all those readers who love to read books & try out different topics.",
-      githubUrl: "",
-      projectUrl: "",
-      technologies: ["Flutter", "Firebase", "RxDart"],
+        "Blogging website where people can write their blog & other people will be able to read them & gather any sort of nowledge from it.",
+      githubUrl: "https://github.com/yogesh-aggarwal/ravel",
+      projectUrl: "https://github.com/yogesh-aggarwal/ravel/releases",
+      technologies: ["Angular", "Firebase", "RxJS", "EditorJS"],
     },
     {
       name: "Folder Prettifier",
