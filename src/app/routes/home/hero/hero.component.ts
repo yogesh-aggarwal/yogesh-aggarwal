@@ -28,8 +28,7 @@ export class HeroComponent implements OnInit {
   animate() {
     const transitions = {
       opacity: 0,
-      y: 40,
-      transform: "rotateX(30deg)",
+      y: 60,
       duration: 0.1,
       scrollTrigger: this.section.nativeElement,
     };
