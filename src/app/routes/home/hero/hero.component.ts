@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { DataService } from "src/app/services/data.service";
+import { DataService } from "../../../services/data.service";
 import { TweenLite } from "gsap";
 
 @Component({

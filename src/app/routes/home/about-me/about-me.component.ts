@@ -21,7 +21,7 @@ export class AboutMeComponent implements OnInit {
   animate() {
     const transitions: gsap.TweenVars = {
       opacity: 0,
-      y: 60,
+      y: 80,
       duration: 0.1,
       scrollTrigger: this.section.nativeElement,
     };
