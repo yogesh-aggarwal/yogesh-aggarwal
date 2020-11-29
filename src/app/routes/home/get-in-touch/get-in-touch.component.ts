@@ -14,6 +14,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 export class GetInTouchComponent implements OnInit {
   @ViewChild("section")
   section: ElementRef;
+  @ViewChild("mainHeading")
+  mainHeading: ElementRef;
   @ViewChild("heading")
   heading: ElementRef;
   @ViewChild("content")
@@ -30,14 +32,18 @@ export class GetInTouchComponent implements OnInit {
       duration: 0.1,
       scrollTrigger: this.section.nativeElement,
     };
+    TweenLite.from(this.mainHeading.nativeElement, 1, {
+      ...transitions,
+      delay: 0.2,
+    });
     TweenLite.from(this.heading.nativeElement, 1, transitions);
     TweenLite.from(this.content.nativeElement, 1, {
       ...transitions,
-      delay: 0.1,
+      delay: 0.3,
     });
     TweenLite.from(this.cta.nativeElement, 1, {
       ...transitions,
-      delay: 0.2,
+      delay: 0.4,
     });
   }
 

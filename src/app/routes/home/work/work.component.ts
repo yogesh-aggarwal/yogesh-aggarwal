@@ -48,7 +48,7 @@ export class WorkComponent implements OnInit {
     });
     TweenLite.from(this.otherProjects.nativeElement, 1, {
       ...transitions,
-      delay: 0.6,
+      delay: 0.3,
     });
   }
 
