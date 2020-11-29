@@ -36,14 +36,17 @@ export class GetInTouchComponent implements OnInit {
       ...transitions,
       delay: 0.2,
     });
-    TweenLite.from(this.heading.nativeElement, 1, transitions);
-    TweenLite.from(this.content.nativeElement, 1, {
+    TweenLite.from(this.heading.nativeElement, 1, {
       ...transitions,
       delay: 0.3,
     });
-    TweenLite.from(this.cta.nativeElement, 1, {
+    TweenLite.from(this.content.nativeElement, 1, {
       ...transitions,
       delay: 0.4,
+    });
+    TweenLite.from(this.cta.nativeElement, 1, {
+      ...transitions,
+      delay: 0.5,
     });
   }
 
