@@ -1,5 +1,5 @@
 <div class="container section">
-  <section>
+  <section #section>
     <div class="heading">
       <div class="name">
         <div class="count">03.</div>
@@ -8,14 +8,14 @@
       <div class="line"></div>
     </div>
     <div class="content">
-      <div class="heading">Get In Touch</div>
-      <div class="description">
+      <div class="heading" #heading>Get In Touch</div>
+      <div class="description" #content>
         A warm welcome to everyone whoever wants to interact. Whether or not
         you're planning for a business, just say a "Hi". And if you're planning
         for buisness, you're most welcome! Just text me & get involved in the
         process of development.
       </div>
-      <a [href]="['mailto:', dataService.email]">
+      <a [href]="['mailto:', dataService.email]" #cta>
         <button>Say Hello</button>
       </a>
     </div>
