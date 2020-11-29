@@ -9,6 +9,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
   styleUrls: ["./work.component.scss", "./work.component_media.scss"],
 })
 export class WorkComponent implements OnInit {
+  @ViewChild("mainHeading")
+  mainHeading: ElementRef;
   @ViewChild("heading")
   heading: ElementRef;
   @ViewChild("archive")
@@ -22,8 +24,10 @@ export class WorkComponent implements OnInit {
     let transitions: gsap.TweenVars = {
       opacity: 0,
       y: 60,
+      scrollTrigger: this.mainHeading.nativeElement,
     };
     // Featured Projects
+    TweenLite.from(this.mainHeading.nativeElement, 1, transitions);
     this.dataService.featuredProjects.forEach((project) => {
       let projectElement = document.getElementById(
         project.name.replace(" ", "-")
