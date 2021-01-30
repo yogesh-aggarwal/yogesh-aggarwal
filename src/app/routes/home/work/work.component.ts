@@ -35,7 +35,7 @@ export class WorkComponent implements OnInit {
       if (!projectElement) return;
       TweenLite.from(projectElement, 1, {
         ...transitions,
-        delay: 0.2,
+        delay: 0.3,
         scrollTrigger: projectElement,
       });
     });

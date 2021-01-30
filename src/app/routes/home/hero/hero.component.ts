@@ -51,7 +51,7 @@ export class HeroComponent implements OnInit {
     });
     TweenLite.from(this.cta.nativeElement, 1, {
       ...transitions,
-      delay: 0.6,
+      delay: 1.1,
     });
   }
 
