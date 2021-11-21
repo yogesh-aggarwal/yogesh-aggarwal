@@ -33,6 +33,7 @@ export class AboutMeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(document.documentElement.clientHeight);
     gsap.registerPlugin(ScrollTrigger);
     setTimeout(() => {
       this.animate();

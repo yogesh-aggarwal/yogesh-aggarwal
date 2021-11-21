@@ -178,7 +178,9 @@ export class DataService {
     "Firebase",
     "Flutter",
     "React Native",
-    "Django",
+    "Digital Ocean",
+    "Scrapy",
+    "Selenium",
   ];
   madeUsing: string[] = ["Angular 11", "Firebase"];
 
