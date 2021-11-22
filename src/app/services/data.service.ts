@@ -20,7 +20,7 @@ export class DataService {
     instagram: "https://www.instagram.com/developer.exe",
     linkedin: "https://www.linkedin.com/in/yogesh-aggarwal-90a7ab1b2",
   };
-  email: string = "yogeshdevaggarwal@gmail.com";
+  email: string = "business.yogeshdevaggarwal@gmail.com";
   featuredProjects: ProjectInterface[] = [
     {
       name: "Fanatic",

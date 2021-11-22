@@ -1,28 +1,53 @@
 {
-  "hosting": [
-    {
-      "target": "ProgrammingWithYogesh",
-      "public": "dist/ProgrammingWithYogesh",
-      "ignore": [
-        "**/.*"
-      ],
-      "headers": [
+    "hosting": [
         {
-          "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public,max-age=31536000,immutable"
-            }
-          ]
-        }
-      ],
-      "rewrites": [
+            "target": "YogeshAggarwal",
+            "public": "dist/YogeshAggarwal",
+            "ignore": [
+                "**/.*"
+            ],
+            "headers": [
+                {
+                    "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
+                    "headers": [
+                        {
+                            "key": "Cache-Control",
+                            "value": "public,max-age=31536000,immutable"
+                        }
+                    ]
+                }
+            ],
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
         {
-          "source": "**",
-          "destination": "/index.html"
+            "target": "YogeshAggarwal",
+            "public": "dist/YogeshAggarwal",
+            "ignore": [
+                "**/.*"
+            ],
+            "headers": [
+                {
+                    "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
+                    "headers": [
+                        {
+                            "key": "Cache-Control",
+                            "value": "public,max-age=31536000,immutable"
+                        }
+                    ]
+                }
+            ],
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
+

@@ -1,11 +1,12 @@
 {
   "targets": {
-    "programmingwithyogesh-dev": {
+    "yogeshaggarwal-in": {
       "hosting": {
-        "ProgrammingWithYogesh": [
-          "programmingwithyogesh-dev"
+        "YogeshAggarwal": [
+          "yogeshaggarwal-in"
         ]
       }
     }
   }
 }
+
