@@ -31,7 +31,7 @@ export default function Experience() {
 										<div>
 											<a
 												className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-blue-300 focus-visible:text-blue-300 group/link text-base"
-												href="https://www.klaviyo.com"
+												href={experience.link}
 												target="_blank"
 												rel="noreferrer noopener"
 												aria-label={`{experience.role} at Klaviyo (opens in a new tab)`}
@@ -88,7 +88,7 @@ export default function Experience() {
 						aria-label="View Full Résumé (opens in a new tab)"
 					>
 						<span>
-							View Full{/* */}
+							View Full{" "}
 							<span className="inline-block">
 								Résumé
 								<MoveUpRight
