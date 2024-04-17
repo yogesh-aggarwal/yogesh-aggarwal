@@ -1,4 +1,4 @@
-[![Header](Header.png)](https://yogeshaggarwal.in)
+[![Header](./public/header.png)](https://yogeshaggarwal.in)
 
 <br>
 
