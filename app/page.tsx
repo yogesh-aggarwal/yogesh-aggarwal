@@ -21,10 +21,10 @@ export default function Home() {
 						<About />
 						<Experience />
 						{/* <Projects /> */}
-						{/* <Skills /> */}
-						{/* <Publications /> */}
+						<Skills />
+						<Publications />
 						{/* <Story /> */}
-						{/* <Footer /> */}
+						<Footer />
 					</main>
 				</div>
 			</div>
