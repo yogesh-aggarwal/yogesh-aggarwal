@@ -22,7 +22,9 @@ export default function Header() {
 					<a href="/">Yogesh Aggarwal</a>
 				</h1>
 				<h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-					Senior Frontend Engineer
+					<span className="font-hand text-blue-300 font-medium">
+						Self-Taught Computer Science Engineer
+					</span>
 				</h2>
 				<p className="mt-4 max-w-xs leading-normal text-l2">
 					I build pixel-perfect, engaging, and accessible digital experiences.

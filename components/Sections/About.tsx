@@ -1,6 +1,14 @@
 import { Quote } from "lucide-react"
 
 namespace Components {
+	export function Highlighted(props: { children: any }) {
+		return (
+			<span className="font-hand text-blue-300 font-medium">
+				{props.children}
+			</span>
+		)
+	}
+
 	export function Link(props: { href: string; title: string }) {
 		return (
 			<a
@@ -31,8 +39,28 @@ export default function About() {
 				</h2>
 			</div>
 			<div className="text-l2">
-				<p className="mb-4">My about here</p>
-				<p className="mb-4"></p>
+				<p className="mb-4">
+					I'm a digital craftsman who builds awesome websites and web apps with{" "}
+					<Components.Highlighted>pixel-perfect</Components.Highlighted>{" "}
+					perfection! From static sites to dynamic apps and APIs, I've created a
+					bunch of cool projects using all kinds of techy tools.
+				</p>
+				<p className="mb-4">
+					Even though{" "}
+					<Components.Highlighted>I'm self-taught</Components.Highlighted>,
+					learning new things is like a fun game for me. I'm always eager to
+					level up my skills and take on new challenges. Right now, I'm super
+					excited about exploring{" "}
+					<Components.Highlighted>AI agents</Components.Highlighted> and how
+					they can change the way we interact with computers. It's like stepping
+					into a new digital dimension!
+				</p>
+				<p className="mb-4">
+					Keeping up with the latest tech trends isn't just a{" "}
+					<Components.Highlighted>hobby</Components.Highlighted> – it's an
+					adventure! I'm a quick learner, ready to embark on new quests and
+					conquer any coding conundrums that come my way.
+				</p>
 			</div>
 		</section>
 	)
