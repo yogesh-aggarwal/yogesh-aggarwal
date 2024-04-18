@@ -10,8 +10,8 @@ const sections: Section_t[] = [
 	{ id: "experience", title: "Experience" },
 	{ id: "projects", title: "Projects" },
 	{ id: "skills", title: "Skills" },
-	{ id: "publications", title: "Publications" },
-	{ id: "my-story", title: "My Story" },
+	{ id: "publications", title: "Research Publications" },
+	// { id: "my-story", title: "My Story" },
 	{ id: "books", title: "Books Authored" },
 ]
 
