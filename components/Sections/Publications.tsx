@@ -1,5 +1,5 @@
 import { Data } from "@/lib/data"
-import { MoveUpRight, Rainbow, School } from "lucide-react"
+import { School } from "lucide-react"
 
 export default function Publications() {
 	return (
@@ -76,26 +76,6 @@ export default function Publications() {
 						</li>
 					))}
 				</ol>
-				<div className="mt-12">
-					<a
-						className="inline-flex items-baseline leading-tight hover:text-blue-300 focus-visible:text-blue-300 font-semibold text-slate-200 group/link text-base"
-						href="/resume.pdf"
-						target="_blank"
-						rel="noreferrer noopener"
-						aria-label="View Full Résumé (opens in a new tab)"
-					>
-						<span>
-							View Full{/* */}
-							<span className="inline-block">
-								Résumé
-								<MoveUpRight
-									size={20}
-									className="-mt-1 ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-blueuce:transition-none translate-y-px"
-								/>
-							</span>
-						</span>
-					</a>
-				</div>
 			</div>
 		</section>
 	)
