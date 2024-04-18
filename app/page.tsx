@@ -1,3 +1,5 @@
+"use client"
+
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import About from "@/components/Sections/About"
@@ -6,7 +8,6 @@ import Experience from "@/components/Sections/Experience"
 import Projects from "@/components/Sections/Projects"
 import Publications from "@/components/Sections/Publications"
 import Skills from "@/components/Sections/Skills"
-import Story from "@/components/Sections/Story"
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
