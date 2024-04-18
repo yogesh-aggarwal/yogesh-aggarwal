@@ -313,28 +313,167 @@ export namespace Data {
 
 	export const projects: Project_t[] = [
 		{
-			title: "Fanatic",
+			title: "Common React Toolkit",
 			description:
-				"Website for Anime Fans where they can enjoy their favorite Anime Series. Desktop Application.",
-			image: "https://bit.ly/37tmGmR",
-			link: "https://anime-fanatic.web.app/",
-			tags: ["Angular", "Firebase", "Firestore"],
+				"The project increases the performance of the react application by `43%` (acc. to google chrome's native profiler) and facilitate `seamless caching`. It started off as being an implementation for common react functions along with a unique approach to `global state management` leveraging the principles of `reactive programming`. Later on, it was expanded to a complete toolkit for react in form of an npm package for developers to make their development process `easier and faster`. The toolkit is currently being used by `over 500+ developers` as well as various proprietary projects and crossed `over 15k+ downloads` since its launch.",
+			image: "/common-react-toolkit-banner.webp",
+			link: "https://www.npmjs.com/package/common-react-toolkit",
+			tags: [
+				"15k+ downloads",
+				"500+ developers",
+				"React",
+				"State Management",
+				"Reactive Programming (RX)",
+				"DX",
+			],
+		},
+		{
+			title: "SQL Tools",
+			description:
+				"Python package aimed at the `developer ring` to focus on their business logic by abstracting away all of the connection and `data parsing` headaches from the developer front resulting in a `low-thought`, `high-performant` `database handling` code. The project utilizes state-of-the-art tools such as `numpy` to parse data to-and-fro from the database. It also features functionality to work with `multiple databases concurrently` posing safety in `multithreaded environments`. It's currently used by over `2k+ developers` and has crossed over `70k+ downloads` since its launch.",
+			image: "/sql-tools-banner.webp",
+			link: "https://pypi.org/project/sql-tools",
+			tags: [
+				"70k+ downloads",
+				"2k+ developers",
+				"Python 3.6+",
+				"SQL",
+				"SQLite",
+				"MySQL",
+				"Oracle SQL",
+				"Numpy",
+				"Data processing",
+			],
+		},
+		{
+			title: "Wentz",
+			description:
+				"It's a web application solely developed by me and powered by `firebase`, `react`, & `common-react-toolkit` developed as part of an in-house hackathon conducted by my institute for the purpose of selecting students for the `ERP development team` (later named `Manthan ERP` as mentioned in the experiences). It features utility for the institute to manage and conduct events in their specified auditoriums where the faculties can request events to the dean (coordinator) & the coordinator will be having a choice to either accept or reject the request. The collision detection is done beforehand to reduce coordinator's headaches.",
+			image: "/wentz-banner.webp",
+			link: "https://project-wentz.web.app/",
+			tags: [
+				"Built in 29 hours",
+				"Hackathon",
+				"ERP",
+				"Firebase",
+				"React",
+				"Common React Toolkit",
+				"Event Management",
+				"Institute Management",
+			],
+		},
+		{
+			title: "Self Driving Car",
+			description:
+				"The project features a lane-detection algorithm utilizing `OpenCV` and `Python` to detect lanes on the road and then using `PID` control to keep the car in the lane. The project was a great learning experience for me as it helped me understand the core concepts of `Computer Vision` and `Control Systems`.",
+			image: "/self-driving-car-banner.webp",
+			link: "https://github.com/yogesh-aggarwal/self-driving-project",
+			tags: ["Python", "OpenCV", "Computer Vision", "Lane Detection", "PID"],
 		},
 		{
 			title: "Folder Prettifier",
 			description:
 				"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully.",
-			image: "https://bit.ly/2HPhEqg",
+			image: "/folder-prettifier-banner.webp",
 			link: "https://github.com/yogesh-aggarwal/folder-prettifier",
 			tags: ["WinForms", "C#", "Visual Studio 2019"],
 		},
 		{
-			title: "Expenses Manager",
+			title: "Squid X",
 			description:
-				"Simple to use android mobile application that helps you to manage your daily expenses & keep you on budget.",
-			image: "https://bit.ly/2JmPdjM",
-			link: "https://github.com/yogesh-aggarwal/expenses-manager",
-			tags: ["Ionic 5", "Angular", "Firebase", "RxJS"],
+				"This project is developed as part of the `IIT-Goa's Hackoverflow Hackathon` 2021 developed under `36 hours`. It's used to simulate `Squid Game's` theme where the dashboard is meant for the Front man to manage and control the game through various operations such as proceeding to the next game, eliminating a player, etc. The project is developed using `Angular` for the front-end and `NodeJS` for the back-end. It utilizes `GraphQL` for the communication between the front-end and back-end and `express` for authentication.",
+			image: "/squid-x-banner.webp",
+			link: "https://github.com/yogesh-aggarwal/squid-x",
+			tags: [
+				"Under 36 hours",
+				"Hackoverflow hackathon",
+				"Angular",
+				"NodeJS",
+				"GraphQL",
+				"Express",
+			],
 		},
+		{
+			title: "Instagram Reels Creator",
+			description:
+				"This project lets you create Instagram Reels using your own images and videos in an automated manner. It puts text on the images and videos and then stitches them together to create a video. The project is developed using `Python` and `moviepy` library. It can also add music to the video.",
+			image: "/instagram-reels-creator-banner.webp",
+			link: "https://github.com/yogesh-aggarwal/instagram-reels-creator",
+			tags: [
+				"Python",
+				"Moviepy",
+				"Instagram Reels",
+				"Image Processing",
+				"Video Processing",
+				"Automation",
+				"Social Media",
+			],
+		},
+		{
+			title: "Thoughts App",
+			description:
+				"`Thoughts` is a `flutter` based mobile application powered by `firebase` as the serverless backend is made out of personal need of capturing my thoughts throught the day to create a `diary` in the end. This project has helped me personally to get a reflection on my day and has helped me in my personal growth. The app is newly launched & is currently being listed on the `Google Play Store`. The app is kept really simple and minimalistic to keep the focus on the thoughts rather than on the fancy features. Right now, I am working on the `Gen AI` aspect of it that let user automatically get a diary page generated for them based on their thoughts throught the days or weeks or months.",
+			image: "/thoughts-app-banner.webp",
+			link: "https://play.google.com/store/apps/details?id=in.yogeshaggarwal.thoughts",
+			tags: [
+				"Flutter",
+				"Firebase",
+				"Firestore",
+				"Google Play Store",
+				"Diary",
+				"Personal Growth",
+				"Reflection",
+			],
+		},
+		{
+			title: "Fanatic",
+			description:
+				'`Fanatic` is a `web application` developed using `Angular` and `Firebase` as the backend. The application is a `video streaming platform` for `anime lovers` where they can watch their favorite `anime series & movies` all powered by a smart `recommendation system`. The application also features a `gem 💎` system that lets users award titles with their earned gems. These gems are given to users as a reward of watching on the platform. In the backend it utilizes various strong python `web scrappers` to get data from various other websites. This project was made for the learning purpose of a platform is created and how webscrapping works at a large scale. `"The credit of the video owners are duly mentioned in the series and I hold absolutely no gurantee or rights of the content shown on the platform."`',
+			image: "/fanatic-banner.webp",
+			link: "https://anime-fanatic.web.app",
+			tags: [
+				"Angular",
+				"Firebase",
+				"Firestore",
+				"Anime",
+				"Gem 💎",
+				"Gamification",
+				"Video Streaming",
+				"Recommendation System",
+			],
+		},
+		{
+			title: "Memo Messenger",
+			description:
+				"`Flutter` based `cross-platform` application for chatting with friends. It features `end-to-end encryption` and a beautiful UI. The project initially started off as a basic room chatting application for learning how these `real-time` applications work but later evolved into a `full-fledged messenger` application. It utilizes `firebase`'s `firestore`'s real-time database for chatting and `firebase`'s storage for storing media files. The project also features a custom-built end-to-end encryption system for securing the messages.",
+			image: "/memo-messenger-banner.webp",
+			link: "https://github.com/yogesh-aggarwal/memo-messenger",
+			tags: [
+				//
+				"Dart",
+				"Flutter",
+				"Firebase",
+				"RxDart",
+				"End-to-end encryption",
+				"Firestore",
+				"Firebase Storage",
+			],
+		},
+		// {
+		// 	title: "Beautify App",
+		// 	description:
+		// 		"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully.",
+		// 	image: "/beautify-app-banner.webp",
+		// 	link: "https://github.com/yogesh-aggarwal/beautify",
+		// 	tags: ["WinForms", "C#", "Visual Studio 2019"],
+		// },
+		// {
+		// 	title: "Falcon QnA",
+		// 	description:
+		// 		"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully.",
+		// 	image: "https://bit.ly/2HPhEqg",
+		// 	link: "https://github.com/yogesh-aggarwal/folder-prettifier",
+		// 	tags: ["WinForms", "C#", "Visual Studio 2019"],
+		// },
 	]
 }
