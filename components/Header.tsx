@@ -12,6 +12,7 @@ const sections: Section_t[] = [
 	{ id: "skills", title: "Skills" },
 	{ id: "publications", title: "Publications" },
 	{ id: "my-story", title: "My Story" },
+	{ id: "books", title: "Books Authored" },
 ]
 
 export default function Header() {

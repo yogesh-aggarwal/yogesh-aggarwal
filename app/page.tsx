@@ -4,6 +4,7 @@
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import About from "@/components/Sections/About"
+import Books from "@/components/Sections/Books"
 import Experience from "@/components/Sections/Experience"
 import Projects from "@/components/Sections/Projects"
 import Publications from "@/components/Sections/Publications"
@@ -23,7 +24,8 @@ export default function Home() {
 						<Projects />
 						<Skills />
 						<Publications />
-						<Story />
+						{/* <Story /> */}
+						<Books />
 						<Footer />
 					</main>
 				</div>
