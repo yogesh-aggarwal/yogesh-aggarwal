@@ -18,7 +18,7 @@ const config: Config = {
 				l2: "#94a3b8",
 			},
 			fontFamily: {
-				hand: "Kalam",
+				hand: "var(--font-hand)",
 			},
 		},
 	},
