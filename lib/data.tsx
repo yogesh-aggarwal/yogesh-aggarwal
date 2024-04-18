@@ -33,7 +33,7 @@ export namespace Data {
 		{
 			name: "YouTube",
 			icon: <Youtube />,
-			link: "https://youtube.com/@ProgrammingWithYogesh",
+			link: "https://www.youtube.com/@ProgrammingWithYogesh6752",
 		},
 		{
 			name: "Instagram",
@@ -247,7 +247,7 @@ export namespace Data {
 				"Cron Jobs",
 				"Edge Computing",
 			],
-			link: "https://play.google.com/store/apps/developer?id=YouLaundry",
+			link: "https://vipstcerp.web.app",
 		},
 		{
 			at: "Cadillac Fair View",
