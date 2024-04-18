@@ -82,7 +82,7 @@ export default function Home() {
 						<Projects />
 						<Skills />
 						<Publications />
-						<Story />
+						{/* <Story /> */}
 						<Books />
 						<Footer />
 					</main>
