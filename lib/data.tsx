@@ -54,8 +54,9 @@ export namespace Data {
 
 	export const skills: Skill_t[] = [
 		{
-			title: "Cloud",
-			description: "",
+			title: "Cloud Engineering",
+			description:
+				"While I initially used `Firebase` as a standalone backend for my projects, I later expanded to more robust platforms like `AWS` and `GCP` for handling increased complexity. In addition to public cloud services, I've also gotten hands-on experience by `self-hosting` projects on `Digital Ocean VPS` instances as well as tinkering with `bare-metal` servers running on hardware like `Raspberry Pis and Orange Pis` - I love getting into the nitty-gritty when the opportunity arises.",
 			tags: [
 				//
 				"AWS",
@@ -63,11 +64,32 @@ export namespace Data {
 				"Self-hosting",
 				"Firebase",
 				"Netlify",
+				"Digital Ocean",
+			],
+		},
+		{
+			title: "Development",
+			description:
+				"This is quite an interesting one. I have worked with a variety of frontend frameworks and libraries. I started with `Vanilla JS` with `JQuery` back in `2014` and then moved to `Angular 8` initially for most of my projects as its concepts such as services, modules, components felt like natural intuition to me. Later for exploration I moved over to `React` & now it's my primary choice for most of my projects. `NextJS` is my go-to for `SSR & SSG` projects. In the domain of mobile applications, I used to work with `Java` for Android applications but then moved to `Flutter` for cross-platform applications. I have also worked with `React Native` for some of my projects. For desktop applications, I have worked with `WinUI` & `WinForms` for Windows applications. I have also worked with `Electron` for cross-platform desktop applications.",
+			tags: [
+				//
+				"Angular",
+				"React",
+				"React Native",
+				"Flutter",
+				"Native Android (Java)",
+				"WinUI",
+				"WinForms",
+				"Electron",
+				"NextJS",
+				"Tauri",
+				"JQuery",
 			],
 		},
 		{
 			title: "Database",
-			description: "",
+			description:
+				"My database journey began with `SQLite`, which I used back in `2016` for storing user data in my first `Python Tkinter` project. As I delved deeper into web development, I started leveraging the advanced features of SQL databases like `MySQL`, `PostgreSQL`, and `CassandraDB`. However, with the rise of NoSQL solutions, I initially adopted `MongoDB` and then transitioned to `Firestore` and `DynamoDB` for personal and client projects, drawn by their scalability and ease of use. The variety of database technologies I've worked with has given me a well-rounded perspective on data storage and management.",
 			tags: [
 				//
 				"MongoDB",
@@ -80,63 +102,88 @@ export namespace Data {
 			],
 		},
 		{
-			title: "Dev Ops",
-			description: "",
+			title: "DevOps",
+			description:
+				'For DevOps, I\'ve worked with `Docker`, `Jenkins`, `GitHub Actions` (my preferred CI/CD tool), `GitLab`, and `Bitbucket` Pipelines for automating deployments, even before `"DevOps"` was a buzzword. I have some experience with `Kubernetes` as well. Hosting-wise, I started with `bare-metal servers`, moved to VPSs like `Digital Ocean`, and now frequently leverage `serverless` platforms like `Firebase`, `Netlify`, `Vercel`, and `Heroku` for personal and client projects. The variety of tools and platforms has given me a well-rounded DevOps skillset.',
 			tags: [
 				//
 				"Docker",
-				"CI/CD Pipelines",
+				"Kubernetes",
 				"Jenkins",
+				"Serverless",
+				"Digital Ocean",
+				"Bare metal",
+				"CI/CD Pipelines",
 				"GitHub actions",
-				"GitLab actions",
+				"GitLab pipelines",
+				"BitBucket pipelines",
 			],
 		},
 		{
 			title: "Machine Learning",
-			description: "",
+			description:
+				"My machine learning journey started with `Sci-Kit Learn` and `OpenCV` in `2018`, fascinated by predictive modeling. While still exploring the vast field, I've built projects like `facial recognition` with OpenCV, `chatbots` using `NLTK` and `TensorFlow`, and an AI for Flappy Bird with `Deep Q Learning`. Initially struggling with the math behind models, resources like `3Blue1Brown` and `Andrew Ng`'s courses helped me develop custom models using `PyTorch` and `TensorFlow`. I'm now proficient in data `analytics`, visualization with `NumPy`, `Pandas`, `Matplotlib`, and grasping core ML concepts, though there's always more to learn.",
 			tags: [
 				//
 				"Tensorflow",
 				"Numpy",
 				"Pandas",
+				"Matplotlib",
+				"SeaBorn",
 				"PyTorch",
+				"NLTK",
 				"Sci-Kit learn",
+				"OpenCV",
+				"Deep Q Learning",
 			],
 		},
 		{
-			title: "Development",
-			description: "",
+			title: "Artificial Intelligence",
+			description:
+				"I've been diving deep into the world of large language models (`LLMs`) like `GPT-3`, GPT-2, and BERT - both using the handy langchain library and rolling up my sleeves to build custom implementations from the ground up. `OpenAI`'s GPT-3 release was a game-changer that sparked my curiosity to really push the boundaries of what these models can do for real-world problem-solving. That led me to the `Hugging Face` ecosystem, where I've been tinkering with cutting-edge models like `LLaMA2`, `Mistral`, and `Stable Diffusion`, getting hands-on with their core `transformers`, `datasets`, and `diffusers` libraries. These days, I'm particularly excited about uncovering novel applications for OpenAI's newly-launched `GPT-4 assistants` - the potential seems limitless, and I'm determined to be at the forefront of leveraging these AI capabilities in production environments.",
 			tags: [
 				//
-				"Flutter",
-				"React",
-				"React Native",
-				"WinUI",
-				"WinForms",
+				"OpenAI",
+				"Hugging Face",
+				"GPT-4",
+				"GPT-3",
+				"Llama2",
+				"Mixtral",
+				"Stable Diffusion",
+				"transformers",
+				"datasets",
+				"diffusers",
+				"Langchain",
+				"Agents",
 			],
 		},
 		{
 			title: "Automation",
-			description: "",
+			description:
+				"It all started with needing large datasets for a personal project but not having the budget to procure them. That's when I dove into the world of web scraping, initially using `BeautifulSoup` to extract data from websites before leveling up to `Selenium` & `Puppeteer` for more complex parsing tasks. Data acquisition was just the beginning of my automation journey though. I've also gotten my hands dirty with `shell scripting` for `system-level automation` like `job scheduling`, `cron jobs`, and `disk management` routines. On the web side, I've used Python to automate user interactions and behaviors across websites. One unique area I've tackled is `captcha` solving using creative Python techniques - some tricks that are `uniquely my own`. Overall, I've built expertise in leveraging Python for automating all sorts of system tasks and processes for clients.",
 			tags: [
 				//
 				"Python",
 				"Selenium",
+				"Puppeteer",
 				"Shell automation",
 				"User behaviour",
 				"Captcha",
 				"System tasks",
+				"Power Automate",
 			],
 		},
 		{
 			title: "Languages",
-			description: "",
+			description:
+				"I've no description for this one. I am a polyglot. I speak many languages. :P.\n Jokes apart, I have worked with a variety of programming languages. I started with `C++` back in `2014` and then moved to `Python` for most of my projects. Nowadays, despite the fact that I use `TypeScript`/`JavaScript` for most of my projects, I still love to code in `C++` when it gets to `\"nerdy stuff\"` & performance-critical applications. In `2021`, I started building servers for my clients with `Golang` and I must say that I am quite impressed with its performance. I've also worked with `Dart` for building mobile applications using `Flutter`.",
 			tags: [
 				//
+				"C++ (of course)",
+				"Java",
 				"Python",
 				"Golang",
-				"C++ (of course)",
-				"JavaScript/Typescript",
+				"Typescript/JavaScript",
 				"Dart",
 			],
 		},

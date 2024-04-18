@@ -1,5 +1,30 @@
 import { Data } from "@/lib/data"
 import { Blocks } from "lucide-react"
+import { useMemo } from "react"
+
+namespace Components {
+	export function Highlighted(props: { children: any }) {
+		return (
+			<span className="font-hand text-blue-300 font-medium">
+				{props.children}
+			</span>
+		)
+	}
+
+	export function ParsedDescription(props: { description: string }) {
+		const description = useMemo(() => {
+			const regex = /`(.*?)`/g
+			return props.description.split(regex).map((part, index) => {
+				if (index % 2 === 1) {
+					return <Highlighted key={index}>{part}</Highlighted>
+				}
+				return part
+			})
+		}, [props.description])
+
+		return <>{description}</>
+	}
+}
 
 /* eslint-disable @next/next/no-img-element */
 export default function Skills() {
@@ -32,7 +57,9 @@ export default function Skills() {
 										<span>{skill.title}</span>
 									</h3>
 									<p className="mt-2 text-sm leading-normal text-l2">
-										{skill.description}
+										<Components.ParsedDescription
+											description={skill.description}
+										/>
 									</p>
 									<ul
 										className="mt-2 flex flex-wrap"
