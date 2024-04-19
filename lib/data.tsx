@@ -24,7 +24,7 @@ export namespace Data {
 		{
 			name: "LinkedIn",
 			icon: <Linkedin />,
-			link: "https://linkedin.com/YogeshDev215",
+			link: "https://www.linkedin.com/in/yogeshdev215",
 		},
 		{
 			name: "Twitter",
