@@ -69,7 +69,7 @@ export default function Home() {
 					<div className="g3"></div>
 					<div className="g4"></div>
 					<div className="g5"></div>
-					<div className="interactive"></div>
+					<div className="interactive !sm:pointer-events-none "></div>
 				</div>
 			</div>
 			<div className="z-10 mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
