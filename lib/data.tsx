@@ -305,7 +305,7 @@ export namespace Data {
 			timestamp: "2021",
 			description:
 				"Revamped the landing page of the website and made it more interactive and user-friendly. The website is currently being used by over 10,000+ users. The landing pages, being of a reputed real-estate brand, required various analytics and tracking features to be implemented. It uses Google Analytics and Google Tag Manager for tracking user behaviour. The website is hosted on a CDN and uses Cloudflare for caching.",
-			link: "https://www.cadillacfairview.com/",
+			link: "https://www.cadillacfairview.com",
 			tags: [
 				"NextJS",
 				"SCSS",
@@ -400,7 +400,7 @@ export namespace Data {
 			description:
 				"It's a web application solely developed by me and powered by `firebase`, `react`, & `common-react-toolkit` developed as part of an in-house hackathon conducted by my institute for the purpose of selecting students for the `ERP development team` (later named `Manthan ERP` as mentioned in the experiences). It features utility for the institute to manage and conduct events in their specified auditoriums where the faculties can request events to the dean (coordinator) & the coordinator will be having a choice to either accept or reject the request. The collision detection is done beforehand to reduce coordinator's headaches.",
 			image: "projects/wentz-banner.webp",
-			link: "https://project-wentz.web.app/",
+			link: "https://project-wentz.web.app",
 			tags: [
 				"Built in 29 hours",
 				"Hackathon",
@@ -423,10 +423,10 @@ export namespace Data {
 		{
 			title: "Folder Prettifier",
 			description:
-				"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only 1-click. This application provides you all the operations that one need to manage the folders easily & beautifully.",
+				"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only `1-click`. This application provides you all the operations that one need to manage the folders `easily` & `beautifully`.",
 			image: "projects/folder-prettifier-banner.webp",
 			link: "https://github.com/yogesh-aggarwal/folder-prettifier",
-			tags: ["WinForms", "C#", "Visual Studio 2019"],
+			tags: ["WinForms", "C#", "Visual Studio 2019", "Automation", "File Management"],
 		},
 		{
 			title: "Squid X",
