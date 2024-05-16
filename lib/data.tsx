@@ -102,6 +102,48 @@ export namespace Data {
 		},
 	]
 
+	export const publications: Publication_t[] = [
+		{
+			timestamp: "Springer's ICICC 2024",
+			title:
+				"Experimental study to analyze the zonal financial independence of women using fuzzy logic.",
+			description:
+				"This award-winning research paper analyzes the financial status of women in India using fuzzy logic and government data. It reveals significant regional disparities in women's financial independence across different zones of the country. The study provides valuable insights for stakeholders and policymakers to develop targeted interventions aimed at empowering women and addressing socio-economic discrimination, thereby promoting gender equality and financial literacy among women in Indian society.",
+			link: "/publications/icicc-2024-best-paper-award.pdf",
+			tags: [
+				"Best Paper Award",
+				"Gender Stereotypes",
+				"Financial Independence",
+				"Female Feticide",
+				"Gender Discrimination",
+				"Education",
+				"Fuzzy Logic",
+				"Data Analysis",
+				"Data Visualization",
+				"Python",
+				"R",
+			],
+		},
+		{
+			timestamp: "IJCRT 2023",
+			title:
+				"Elucidating Gender Discrepancies in Skill Development and Media Consumption During Youth Isolation.",
+			description:
+				"This study examines the gender-specific effects of COVID-19 lockdowns on students' lifestyles and learning abilities through a cross-sectional survey. The findings reveal that lockdowns had a more detrimental impact on the mental health of female students compared to males. While male students focused on developing technical skills like coding, females pursued creative hobbies. The analysis delves into the impacts on sleep patterns, sedentary behavior, and coping strategies adopted by students during the lockdowns. The paper highlights the gender disparities in how students responded to the lockdown situation, offering valuable insights into the effects on their well-being and learning capabilities during this challenging period.",
+			link: "/publications/ijcrt-2023-certificate.pdf",
+			tags: [
+				"COVID-19",
+				"Lockdown",
+				"Gender Studies",
+				"Student Wellbeing",
+				"Mental Health",
+				"Learning Abilities",
+				"Coping Strategies",
+				"Gender Differences",
+			],
+		},
+	]
+
 	export const skills: Skill_t[] = [
 		{
 			title: "Cloud Engineering",
@@ -319,48 +361,6 @@ export namespace Data {
 		},
 	]
 
-	export const publications: Publication_t[] = [
-		{
-			timestamp: "Springer's ICICC 2024",
-			title:
-				"Experimental study to analyze the zonal financial independence of women using fuzzy logic.",
-			description:
-				"This award-winning research paper analyzes the financial status of women in India using fuzzy logic and government data. It reveals significant regional disparities in women's financial independence across different zones of the country. The study provides valuable insights for stakeholders and policymakers to develop targeted interventions aimed at empowering women and addressing socio-economic discrimination, thereby promoting gender equality and financial literacy among women in Indian society.",
-			link: "/publications/icicc-2024-best-paper-award.pdf",
-			tags: [
-				"Best Paper Award",
-				"Gender Stereotypes",
-				"Financial Independence",
-				"Female Feticide",
-				"Gender Discrimination",
-				"Education",
-				"Fuzzy Logic",
-				"Data Analysis",
-				"Data Visualization",
-				"Python",
-				"R",
-			],
-		},
-		{
-			timestamp: "IJCRT 2023",
-			title:
-				"Elucidating Gender Discrepancies in Skill Development and Media Consumption During Youth Isolation.",
-			description:
-				"This study examines the gender-specific effects of COVID-19 lockdowns on students' lifestyles and learning abilities through a cross-sectional survey. The findings reveal that lockdowns had a more detrimental impact on the mental health of female students compared to males. While male students focused on developing technical skills like coding, females pursued creative hobbies. The analysis delves into the impacts on sleep patterns, sedentary behavior, and coping strategies adopted by students during the lockdowns. The paper highlights the gender disparities in how students responded to the lockdown situation, offering valuable insights into the effects on their well-being and learning capabilities during this challenging period.",
-			link: "/publications/ijcrt-2023-certificate.pdf",
-			tags: [
-				"COVID-19",
-				"Lockdown",
-				"Gender Studies",
-				"Student Wellbeing",
-				"Mental Health",
-				"Learning Abilities",
-				"Coping Strategies",
-				"Gender Differences",
-			],
-		},
-	]
-
 	export const projects: Project_t[] = [
 		{
 			title: "Common React Toolkit",
@@ -426,7 +426,13 @@ export namespace Data {
 				"Cross-Platform desktop application specifically tailored for all those people who need to manage their folders within only `1-click`. This application provides you all the operations that one need to manage the folders `easily` & `beautifully`.",
 			image: "projects/folder-prettifier-banner.webp",
 			link: "https://github.com/yogesh-aggarwal/folder-prettifier",
-			tags: ["WinForms", "C#", "Visual Studio 2019", "Automation", "File Management"],
+			tags: [
+				"WinForms",
+				"C#",
+				"Visual Studio 2019",
+				"Automation",
+				"File Management",
+			],
 		},
 		{
 			title: "Squid X",
