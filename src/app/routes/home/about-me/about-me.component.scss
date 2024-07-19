@@ -19,18 +19,24 @@
         .technologies {
           display: grid;
           grid-template-columns: repeat(2, minmax(5rem, 1fr));
-          grid-row-gap: 0.3rem;
+          grid-row-gap: 0.5rem;
 
           .technology {
             @include center();
             justify-content: flex-start;
             margin-right: 1rem;
-
+            
             .bullet {
-              margin-right: 0.3rem;
+              margin-top: -4px;
+              margin-right: 0.8rem;
               font-size: 1.5rem;
               color: $primary;
               user-select: none;
+            }
+            
+            .name {
+               font-family: $font-mono;
+               line-height: 1.5;
             }
           }
         }
@@ -40,8 +46,8 @@
         border: 2px solid $primary;
         border-radius: 1rem;
         background: rgba($color: $primary, $alpha: 0.1);
-        height: 3in;
-        width: 3in;
+        height: 3.5in;
+        width: 3.5in;
 
         .image {
           border-radius: inherit;
@@ -72,6 +78,7 @@
             border-radius: inherit;
             width: 100%;
             height: 100%;
+            box-shadow: 2px 4px 50px black;
           }
         }
       }

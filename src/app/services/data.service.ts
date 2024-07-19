@@ -18,9 +18,9 @@ export class DataService {
     twitter: "https://twitter.com/YogeshDev215",
     facebook: "https://www.facebook.com/yogesh.aggarwal.50702769",
     instagram: "https://www.instagram.com/developer.exe",
-    linkedin: "https://www.linkedin.com/in/yogesh-aggarwal-90a7ab1b2",
+    linkedin: "https://www.linkedin.com/in/YogeshDev215",
   };
-  email: string = "business.yogeshdevaggarwal@gmail.com";
+  email: string = "yogeshdevaggarwal@gmail.com";
   featuredProjects: ProjectInterface[] = [
     {
       name: "Fanatic",

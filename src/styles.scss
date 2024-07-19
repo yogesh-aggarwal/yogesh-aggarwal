@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import "./app/theme";
 @import "./app/tools";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -24,12 +26,23 @@ a {
   text-decoration: none;
 }
 
+span.handwriting {
+  font-family: $font-handwriting !important;
+
+  &.highlight {
+    background: #64ffda;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0 8px;
+  }
+}
+
 button {
   border: 1px solid $primary;
   padding: 1rem 1.5rem;
   background: $background;
   border-radius: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: $primary;
   transition: background 0.1s ease-in;
   cursor: pointer;
@@ -86,12 +99,13 @@ section {
 
     .name {
       @include center();
-      align-items: flex-end;
+      align-items: baseline;
 
       .count {
         margin-right: 8px;
         color: $primary;
         font-size: 1.3rem;
+        margin-bottom: 4px;
       }
 
       .name {

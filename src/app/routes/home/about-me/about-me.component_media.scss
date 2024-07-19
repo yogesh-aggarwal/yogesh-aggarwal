@@ -5,12 +5,19 @@
     section {
       .content {
         @include center();
-        flex-direction: column;
+        gap: 2rem;
+        flex-direction: column-reverse;
 
         .profile {
-          margin-top: 4rem;
-          height: 2in;
-          width: 2in;
+          height: 3in;
+          width: 3in;
+        }
+
+        .about {
+          .technologies {
+            gap: .5rem;
+            grid-template-columns: repeat(1, minmax(5rem, 1fr));
+          }
         }
       }
     }
