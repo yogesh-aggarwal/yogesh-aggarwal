@@ -49,7 +49,7 @@ export namespace Data {
 		{
 			name: "Email",
 			icon: <Mail />,
-			link: "mailto:yogeshdevaggarwal@gmail.com",
+			link: "mailto:inquiry@yogeshaggarwal.in",
 		},
 	]
 
