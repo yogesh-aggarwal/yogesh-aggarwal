@@ -1,14 +1,31 @@
-"use client"
-
 import "./globals.css"
 
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Metadata } from "next"
 
-// export const metadata: Metadata = {
-// 	title: "Yogesh Aggarwal",
-// 	description: "",
-// }
+export const metadata: Metadata = {
+	title: "Yogesh Aggarwal",
+	description:
+		"Self-Taught Computer Science Engineer | I build pixel-perfect, engaging, and accessible digital experiences.",
+	openGraph: {
+		type: "website",
+		locale: "en_US",
+		url: "https://yogeshaggarwal.com",
+		siteName: "Yogesh Aggarwal",
+		title: "Yogesh Aggarwal",
+		description:
+			"Self-Taught Computer Science Engineer | I build pixel-perfect, engaging, and accessible digital experiences.",
+		images: [
+			{
+				url: "/og-cover.jpg",
+				width: 1200,
+				height: 627,
+				alt: "Yogesh Aggarwal",
+			},
+		],
+	},
+}
 
 export default function RootLayout({
 	children,
