@@ -34,7 +34,7 @@ export namespace Data {
 		{
 			name: "YouTube",
 			icon: <Youtube />,
-			link: "https://www.youtube.com/@ProgrammingWithYogesh6752",
+			link: "https://www.youtube.com/@TheWireDev",
 		},
 		{
 			name: "Instagram",
