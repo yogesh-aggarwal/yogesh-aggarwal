@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 			"Self-Taught Computer Science Engineer | I build pixel-perfect, engaging, and accessible digital experiences.",
 		images: [
 			{
-				url: "/og-cover.jpg",
+				url: "https://yogeshaggarwal.in/og-cover.jpg",
 				width: 1200,
 				height: 627,
 				alt: "Yogesh Aggarwal",
