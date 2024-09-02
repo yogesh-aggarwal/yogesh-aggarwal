@@ -15,3 +15,7 @@
 [![Website](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/k7j4u5eyyceupp4d83hghbxkt?si=ce777ed0c9f9450b/)
 
 <br>
+
+![Yogesh Aggarwal's Stats](https://github-readme-stats.vercel.app/api?username=yogesh-aggarwal&show_icons=true&theme=radical)
+
+<br>
