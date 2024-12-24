@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       ttl: 60,
       images: [
          {
-            url: "https://yogeshaggarwal.in//og-cover.jpg",
+            url: "https://yogeshaggarwal.in/og-cover.jpg",
             width: 1200,
             height: 627,
             alt: "Yogesh Aggarwal",
