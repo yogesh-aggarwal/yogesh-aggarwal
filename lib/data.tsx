@@ -315,9 +315,9 @@ export namespace Data {
          role: "Product Lead",
          timestamp: "2022",
          description:
-            "Lead a team of 5 people to develop a complete ERP solution for the college. The project comprised of a React web application for the admin panel, a react native mobile application for students, and a flutter mobile application for teachers. It solved the institutes major problems such as attendance, timetable and leave management powered by biometric machinary in-house developed by us. It utilized scheduled edge cloud functions for a variety of tasks such as reporting, biometrics etc. The project was a great success and is currently being used by over 5000+ students & faculties.",
+            "Lead a team of 5 people to develop a complete ERP solution for the college. The project comprised of a React web application for the admin panel, a react native mobile application for students, and a flutter mobile application for teachers. It solved the institutes major problems such as attendance, timetable and leave management powered by biometric machinary in-house developed by us. It utilized scheduled edge cloud functions for a variety of tasks such as reporting, biometrics etc. The project was a great success and is currently being used by over 15000+ students & faculties.",
          tags: [
-            "5000+ users",
+            "15000+ users",
             "React",
             "React Native",
             "Flutter",
