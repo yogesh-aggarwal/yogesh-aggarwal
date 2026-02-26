@@ -3,6 +3,7 @@ import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next"
+import Script from "next/script"
 
 export const metadata: Metadata = {
    title: "Yogesh Aggarwal",
@@ -43,6 +44,12 @@ export default function RootLayout({
       <html lang="en">
          <Analytics />
          <SpeedInsights />
+         <Script
+            src="https://datafa.st/js/script.js"
+            data-website-id="dfid_CjdX9OpCAEEozLakfa5Bc"
+            data-domain="yogeshaggarwal.in"
+            strategy="afterInteractive"
+         />
          <script
             dangerouslySetInnerHTML={{
                __html: `
