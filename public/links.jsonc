@@ -1,0 +1,15 @@
+{
+   // /aka/<slug> short links — resolved by app/aka/[slug]/page.tsx.
+   // This file is fetched from the live branch's public folder, so keep it in sync there.
+   "github": "https://github.com/yogesh-aggarwal",
+   "linkedin": "https://www.linkedin.com/in/yogeshdev215",
+   "twitter": "https://twitter.com/YogeshDev215",
+   "youtube": "https://www.youtube.com/@TheWireDev",
+   "instagram": "https://instagram.com/developer.exe",
+   "stackoverflow": "https://stackoverflow.com/users/12077817/yogesh-aggarwal",
+   "email": "mailto:inquiry@yogeshaggarwal.in",
+   "resume": "/resume.pdf",
+
+   // Products
+   "folder-prettifier-feedback": "https://yogeshaggarwal.in",
+}
